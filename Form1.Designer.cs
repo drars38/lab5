@@ -33,6 +33,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.txtLog = new System.Windows.Forms.RichTextBox();
             this.lblScore = new System.Windows.Forms.Label();
+            this.targetTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbMain)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,5 +92,6 @@
         private System.Windows.Forms.Timer timer1;
         private RichTextBox txtLog;
         private Label lblScore;
+        private System.Windows.Forms.Timer targetTimer;
     }
 }
